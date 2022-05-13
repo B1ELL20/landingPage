@@ -1,0 +1,193 @@
+body {
+    height: 100vh;
+}
+
+h1 {
+    color: deepskyblue;
+}
+.link1, #link2, #link3, #link4, #link5 {
+    display: block;
+    padding: 21px;
+    font-weight: bold;
+    color: deepskyblue;
+    text-decoration: none;
+}
+.link1:hover, #link2:hover, #link3:hover, #link4:hover, #link5:hover {
+    background-color: lightblue;
+    border-top: 2px solid black;
+    color: black
+}
+
+.ativo{
+    background-color: lightblue;
+    border-top: 2px solid black;
+    color: black
+}
+
+.page {
+    background-color: lightblue;
+}
+.corpo {
+    border-radius: 10px;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.caixa {
+    padding: 20px;
+    text-align: center;
+}
+
+.caixa-input {
+    padding-top: 10px;
+    width: 80%;
+}
+.caixa-menu {
+    padding: 20px;
+}
+
+.bg1 {
+    background: deepskyblue;
+}
+
+#caixinha1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#caixinha1 h1 {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+.caixa-ajuda {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.caixa-ajuda h2 {
+    color: deepskyblue;
+}
+
+.caixa-ajuda a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+.caixa-ajuda a:hover {
+    text-decoration: underline;
+}
+
+.lista-contato {
+    padding-left: 15px;
+    margin-left: 0px;
+    list-style-type: none;
+}
+
+.caixa-servico {
+    width: 100px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.171);
+    padding: 10px;
+}
+
+.caixa-servico h3 {
+    color: deepskyblue;
+    padding: 20px 0px 10px 0px;
+}
+
+@media(min-width: 1001px) {
+    .caixa-imagem {
+        background-image: url(visual/ft1-removebg-preview.png);
+        background-size: cover;
+        margin-left: 50px;
+        width: 612px;
+        height: 400px;
+    }
+    .imagem-sobre {
+        background-image: url(visual/sobre1-removebg-preview.png);
+        background-size: cover;
+        margin-left: 50px;
+        width: 650px;
+        height: 450px;
+    }
+
+    .imagem-ajuda {
+        background-image: url(visual/duvida-removebg-preview.png);
+        background-size: cover;
+        margin-left: 50px;
+        width: 612px;
+        height: 400px;
+    }
+
+    .caixa-entrada {
+        padding: 20px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .caixa-imagem {
+        background-color: lightblue;
+    }
+
+    .imagem-sobre {
+        background-color: lightblue;
+    }
+
+    .imagem-ajuda {
+        background-color: lightblue;
+    }
+
+    #ajuda {
+        margin: 10px;
+    }
+
+    .caixa-entrada {
+        padding: 20px;
+    }
+}
+
+@media(max-width: 700px) {
+    #caixa-servicos {
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    .caixa-entrada {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    #caixa-inicial {
+        margin: auto;
+        width: 90%;
+    }
+
+}
+
+@media(max-width: 550px) {
+    .caixa-imagem2 {
+        background-image: url(visual/inicio2-removebg-preview.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 350px;
+        margin-bottom: 5%;
+    }
+
+    .imagem-ajuda1 {
+        background-image: url(visual/duvida-removebg-preview.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 300px;
+    }
+}
