@@ -49,6 +49,7 @@ $(document).ready(() => {
                 data: `nome=${nome}&email=${email}`,
                 success: function(data) { /* sucesso */
                     $('#load').html('<span class = "d-inline-block text-success ps-3"><i class="fa-solid fa-check"></i> Email enviado com sucesso!</span>')
+                    console.log(data)
                 },
                 error: erro => {
                     $('#load').html('<span class = "d-inline-block text-danger ps-3"><i class="fa-solid fa-xmark"></i> Problema ao enviar email!</span>')
